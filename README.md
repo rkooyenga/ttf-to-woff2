@@ -30,7 +30,7 @@ make clean all
 
 [![screencast](https://github.com/user-attachments/assets/952c754d-ec5d-4c80-82f2-20711c71ebd6)](https://github.com/user-attachments/assets/caf1f7d1-7a7a-41b0-aaf0-612815b79480)
 
-[ttf-to-woff2.webm](https://github.com/user-attachments/assets/caf1f7d1-7a7a-41b0-aaf0-612815b79480)
+![ttf-to-woff2.webm](https://github.com/user-attachments/assets/caf1f7d1-7a7a-41b0-aaf0-612815b79480)
 
 
 
