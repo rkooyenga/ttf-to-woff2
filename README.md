@@ -51,7 +51,6 @@ Conversion completed. Log saved to ttf-to-woff2.log.
 
 
 ### Script: `ttf-to-woff2.sh`
-<details><summary>script 💻</summary>
 
 ```bash
 #!/bin/bash
@@ -163,7 +162,7 @@ done <<< "$TTF_FILES"
 echo
 echo -e "${GREEN}Conversion completed. Log saved to $LOG_FILE.${RESET}"
 ```
-</details>
+
 
 by [Ray Kooyenga](https://raykooyenga.com)
 
