@@ -55,17 +55,20 @@ Conversion completed. Log saved to ttf-to-woff2.log.
 ```bash
 #!/bin/bash
 
-# Colors for output
+# title: ttf-to-woff2.sh
+# author: ray kooyenga
+# date: 01-05-2024
+# github: https://github.com/rkooyenga/ttf-to-woff2
+# gh page: https://rkooyenga.github.io/ttf-to-woff2
+
 GREEN='\033[0;32m'
 RED='\033[0;31m'
 YELLOW='\033[0;33m'
 CYAN='\033[0;36m'
 RESET='\033[0m'
 
-# Log file
-LOG_FILE="ttf-to-woff2.log"
+LOG_FILE="font_conversion.log"
 
-# Progress bar function
 progress_bar() {
     local progress=$1
     local total=$2
@@ -81,7 +84,6 @@ progress_bar() {
     echo -ne " ] ${CYAN}${percent}%${RESET}\r"
 }
 
-# Confirm the fonts folder
 echo -e "${CYAN}Choose the fonts folder:${RESET}"
 echo -e "${YELLOW}1) User folder (~/.local/share/fonts)${RESET}"
 echo -e "${YELLOW}2) System folder (/usr/share/fonts)${RESET}"
@@ -108,7 +110,7 @@ case $FOLDER_CHOICE in
         ;;
 esac
 
-# Check if the directory exists
+# Check if font directory exists
 if [[ ! -d $FONT_DIR ]]; then
     echo -e "${RED}The directory $FONT_DIR does not exist. Exiting.${RESET}"
     exit 1
@@ -158,7 +160,6 @@ while IFS= read -r TTF_FILE; do
     progress_bar $COUNT $TOTAL_FILES
 done <<< "$TTF_FILES"
 
-# Finalize
 echo
 echo -e "${GREEN}Conversion completed. Log saved to $LOG_FILE.${RESET}"
 ```
