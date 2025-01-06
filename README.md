@@ -28,7 +28,7 @@ make clean all
 2. **Error Handling**: Warns if `brotli` is unavailable or the user is not running the script as `sudo` when targeting system fonts.
 3. **Logging**: Keeps a log of converted fonts with proper names in `ttf-to-woff2.log`.
 
-![]([https://github.com/rkooyenga/ttf-to-woff2/raw/refs/heads/main/ttf-to-woff2.mov](https://rkooyenga.github.io/ttf-to-woff2/ttf-to-woff2.mov))
+[![screencast][https://github.com/rkooyenga/ttf-to-woff2/raw/refs/heads/main/ttf-to-woff2.mov]](https://rkooyenga.github.io/ttf-to-woff2/ttf-to-woff2.mov)]
 
 ### Example Log (`ttf-to-woff2.log`):
 ```txt
