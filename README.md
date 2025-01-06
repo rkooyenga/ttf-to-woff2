@@ -29,7 +29,7 @@ make clean all
 3. **Logging**: Keeps a log of converted fonts with proper names in `ttf-to-woff2.log`.
 
 <video controls>
-  <source src="https://github.com/user-attachments/assets/caf1f7d1-7a7a-41b0-aaf0-612815b79480" type="video/webm"> 
+  <source src="[https://github.com/user-attachments/assets/caf1f7d1-7a7a-41b0-aaf0-612815b79480](https://github.com/rkooyenga/ttf-to-woff2/raw/refs/heads/main/ttf-to-woff2.webm)" type="video/webm"> 
 </video>
 
 ### Example Log (`ttf-to-woff2.log`):
