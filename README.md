@@ -13,7 +13,7 @@ make clean all
 ```
 
 ### Usage:
-1. Save the script as `ttf-to-woff2.sh`.
+1. Save the script as `ttf-to-woff2.sh` or `git clone https://github.com/rkooyenga/ttf-to-woff2.git`
 2. Make it executable:
    ```bash
    chmod +x ttf-to-woff2.sh
