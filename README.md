@@ -156,3 +156,6 @@ done <<< "$TTF_FILES"
 echo
 echo -e "${GREEN}Conversion completed. Log saved to $LOG_FILE.${RESET}"
 ```
+
+by [Ray Kooyenga](https://raykooyenga.com)
+
